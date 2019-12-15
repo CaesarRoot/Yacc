@@ -1,0 +1,38 @@
+TYPE -> @
+; @
+TYPE -> FLOAT
+FLOAT
+TYPE -> ID
+ID
+TYPE -> INTEGER
+INTEGER
+function -> ret ID ( ) { states }
+FLOAT INTEGER VOID
+functions -> function functions1
+FLOAT INTEGER VOID
+functions1 -> @
+$ @
+functions1 -> functions
+FLOAT INTEGER VOID
+init -> ID = FLOAT
+ID
+init -> ID = ID
+ID
+init -> ID = INTEGER
+ID
+ret -> FLOAT
+FLOAT
+ret -> INTEGER
+INTEGER
+ret -> VOID
+VOID
+state -> RETURN TYPE ;
+RETURN
+state -> init
+ID
+states -> state states1
+ID RETURN
+states1 -> @
+@ }
+states1 -> states
+ID RETURN
