@@ -84,22 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cengshaoxun/Programs/Yacc/ALLProductions.cpp">
-			<Option target="Yacc"/>
-		</Unit>
-		<Unit filename="/Users/cengshaoxun/Programs/Yacc/ALLProductions.h">
-			<Option target="Yacc"/>
-		</Unit>
-		<Unit filename="/Users/cengshaoxun/Programs/Yacc/PPT.cpp">
-			<Option target="Yacc"/>
-		</Unit>
-		<Unit filename="/Users/cengshaoxun/Programs/Yacc/PPT.h">
-			<Option target="Yacc"/>
-		</Unit>
 		<Unit filename="/Users/cengshaoxun/Programs/Yacc/main.cpp">
-			<Option target="Yacc"/>
-		</Unit>
-		<Unit filename="/Users/cengshaoxun/Programs/Yacc/type.cpp">
 			<Option target="Yacc"/>
 		</Unit>
 		<Unit filename="/Users/cengshaoxun/Programs/Yacc/type.h">

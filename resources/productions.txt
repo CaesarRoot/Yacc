@@ -1,0 +1,64 @@
+TYPE -> @
+; @ ID
+TYPE -> FLOAT
+FLOAT
+TYPE -> ID
+ID
+TYPE -> INTEGER
+INTEGER
+arithmetic -> operand op operand
+FLOAT ID INTEGER
+function -> ret ID ( ) { states }
+FLOAT INTEGER VOID
+functions -> function functions1
+FLOAT INTEGER VOID
+functions1 -> @
+$ @
+functions1 -> functions
+FLOAT INTEGER VOID
+init -> TYPE ID init1
+; @ FLOAT ID INTEGER
+init1 -> = init2
+=
+init1 -> @
+; @
+init2 -> arithmetic
+FLOAT ID INTEGER
+init2 -> operand
+FLOAT ID INTEGER
+op -> *
+*
+op -> +
++
+op -> -
+-
+op -> /
+/
+op -> <
+<
+op -> >
+>
+operand -> FLOAT
+FLOAT
+operand -> ID
+ID
+operand -> INTEGER
+INTEGER
+ret -> FLOAT
+FLOAT
+ret -> INTEGER
+INTEGER
+ret -> VOID
+VOID
+state -> IF ( arithmetic ) state ELSE state
+IF
+state -> RETURN TYPE ;
+RETURN
+state -> init ;
+FLOAT ID INTEGER
+states -> state states1
+FLOAT ID IF INTEGER RETURN
+states1 -> @
+@ }
+states1 -> states
+FLOAT ID IF INTEGER RETURN

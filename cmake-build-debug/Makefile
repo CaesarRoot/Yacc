@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Lexer
+
+# Build rule for target.
+Lexer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lexer
+.PHONY : Lexer
+
+# fast build rule for target.
+Lexer/fast:
+	$(MAKE) -f lexer/CMakeFiles/Lexer.dir/build.make lexer/CMakeFiles/Lexer.dir/build
+.PHONY : Lexer/fast
+
+#=============================================================================
 # Target rules for targets named Yacc
 
 # Build rule for target.
@@ -120,116 +133,8 @@ Yacc: cmake_check_build_system
 
 # fast build rule for target.
 Yacc/fast:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/build
+	$(MAKE) -f parser/CMakeFiles/Yacc.dir/build.make parser/CMakeFiles/Yacc.dir/build
 .PHONY : Yacc/fast
-
-ALLProductions.o: ALLProductions.cpp.o
-
-.PHONY : ALLProductions.o
-
-# target to build an object file
-ALLProductions.cpp.o:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/ALLProductions.cpp.o
-.PHONY : ALLProductions.cpp.o
-
-ALLProductions.i: ALLProductions.cpp.i
-
-.PHONY : ALLProductions.i
-
-# target to preprocess a source file
-ALLProductions.cpp.i:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/ALLProductions.cpp.i
-.PHONY : ALLProductions.cpp.i
-
-ALLProductions.s: ALLProductions.cpp.s
-
-.PHONY : ALLProductions.s
-
-# target to generate assembly for a file
-ALLProductions.cpp.s:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/ALLProductions.cpp.s
-.PHONY : ALLProductions.cpp.s
-
-PPT.o: PPT.cpp.o
-
-.PHONY : PPT.o
-
-# target to build an object file
-PPT.cpp.o:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/PPT.cpp.o
-.PHONY : PPT.cpp.o
-
-PPT.i: PPT.cpp.i
-
-.PHONY : PPT.i
-
-# target to preprocess a source file
-PPT.cpp.i:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/PPT.cpp.i
-.PHONY : PPT.cpp.i
-
-PPT.s: PPT.cpp.s
-
-.PHONY : PPT.s
-
-# target to generate assembly for a file
-PPT.cpp.s:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/PPT.cpp.s
-.PHONY : PPT.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-type.o: type.cpp.o
-
-.PHONY : type.o
-
-# target to build an object file
-type.cpp.o:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/type.cpp.o
-.PHONY : type.cpp.o
-
-type.i: type.cpp.i
-
-.PHONY : type.i
-
-# target to preprocess a source file
-type.cpp.i:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/type.cpp.i
-.PHONY : type.cpp.i
-
-type.s: type.cpp.s
-
-.PHONY : type.s
-
-# target to generate assembly for a file
-type.cpp.s:
-	$(MAKE) -f CMakeFiles/Yacc.dir/build.make CMakeFiles/Yacc.dir/type.cpp.s
-.PHONY : type.cpp.s
 
 # Help Target
 help:
@@ -239,19 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Lexer"
 	@echo "... Yacc"
-	@echo "... ALLProductions.o"
-	@echo "... ALLProductions.i"
-	@echo "... ALLProductions.s"
-	@echo "... PPT.o"
-	@echo "... PPT.i"
-	@echo "... PPT.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... type.o"
-	@echo "... type.i"
-	@echo "... type.s"
 .PHONY : help
 
 
