@@ -3,6 +3,6 @@
 /Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/CMakeFiles/rebuild_cache.dir
 /Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/CMakeFiles/edit_cache.dir
 /Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/CMakeFiles/Lexer.dir
-/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parser/CMakeFiles/rebuild_cache.dir
-/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parser/CMakeFiles/edit_cache.dir
-/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parser/CMakeFiles/Yacc.dir
+/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/CMakeFiles/rebuild_cache.dir
+/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/CMakeFiles/edit_cache.dir
+/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/CMakeFiles/Yacc.dir

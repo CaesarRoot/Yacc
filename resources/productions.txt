@@ -1,31 +1,45 @@
-TYPE -> @
-; @ ID
+RTYPE -> @
+; @
+RTYPE -> DOUBLE
+DOUBLE
+RTYPE -> FLOAT_NUM
+FLOAT_NUM
+RTYPE -> ID
+ID
+RTYPE -> INTEGER
+INTEGER
+TYPE -> DOUBLE
+DOUBLE
 TYPE -> FLOAT
 FLOAT
-TYPE -> ID
+TYPE -> INT
+INT
+arithmetic -> operand arithmetic1
+FLOAT_NUM ID INTEGER
+arithmetic1 -> @
+) ; @
+arithmetic1 -> op operand
+* + - / < >
+assign -> ID = assign1
 ID
-TYPE -> INTEGER
-INTEGER
-arithmetic -> operand op operand
-FLOAT ID INTEGER
+assign1 -> arithmetic
+FLOAT_NUM ID INTEGER
 function -> ret ID ( ) { states }
-FLOAT INTEGER VOID
+DOUBLE FLOAT INT VOID
 functions -> function functions1
-FLOAT INTEGER VOID
+DOUBLE FLOAT INT VOID
 functions1 -> @
 $ @
 functions1 -> functions
-FLOAT INTEGER VOID
+DOUBLE FLOAT INT VOID
 init -> TYPE ID init1
-; @ FLOAT ID INTEGER
+DOUBLE FLOAT INT
 init1 -> = init2
 =
 init1 -> @
 ; @
 init2 -> arithmetic
-FLOAT ID INTEGER
-init2 -> operand
-FLOAT ID INTEGER
+FLOAT_NUM ID INTEGER
 op -> *
 *
 op -> +
@@ -38,27 +52,35 @@ op -> <
 <
 op -> >
 >
-operand -> FLOAT
-FLOAT
+operand -> FLOAT_NUM
+FLOAT_NUM
 operand -> ID
 ID
 operand -> INTEGER
 INTEGER
+ret -> DOUBLE
+DOUBLE
 ret -> FLOAT
 FLOAT
-ret -> INTEGER
-INTEGER
+ret -> INT
+INT
 ret -> VOID
 VOID
-state -> IF ( arithmetic ) state ELSE state
+state -> IF ( arithmetic ) { states } ELSE { states }
 IF
-state -> RETURN TYPE ;
+state -> RETURN RTYPE ;
 RETURN
+state -> assign ;
+ID
 state -> init ;
-FLOAT ID INTEGER
+DOUBLE FLOAT INT
+state -> while
+WHILE
 states -> state states1
-FLOAT ID IF INTEGER RETURN
+DOUBLE FLOAT ID IF INT RETURN WHILE
 states1 -> @
 @ }
 states1 -> states
-FLOAT ID IF INTEGER RETURN
+DOUBLE FLOAT ID IF INT RETURN WHILE
+while -> WHILE ( arithmetic ) { states }
+WHILE

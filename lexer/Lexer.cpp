@@ -17,7 +17,7 @@ using namespace std;
 
 void monitor(FA *fa, string fileName);
 
-void printResult(string line, int start, int end, Node *node);
+void printResult(string line, int start, int end, Node *node, ofstream& of);
 
 int main() {
     vector<RE> regs;
@@ -46,6 +46,8 @@ int main() {
 }
 
 void monitor(FA *fa, string fileName) {
+    ofstream of;
+    of.open("resources/token_sequence.txt", ios::out);
     ifstream file;
     file.open(fileName, ios::in);
     string line;
@@ -72,7 +74,7 @@ void monitor(FA *fa, string fileName) {
             char ch = (char) line[end];
             // 找到空格或者会车，那么跳转到输出结果环节（仍然有可能出错）
             if (ch == ' ' || ch == '\n') {
-                printResult(line, start, end, node);
+                printResult(line, start, end, node, of);
                 if (ch == '\n') break;
                 // 略过剩下的空格
                 while (line[end] == ' ')
@@ -98,20 +100,24 @@ void monitor(FA *fa, string fileName) {
             } else end++;
         }
         if(start != end)
-            printResult(line, start, end, node);
+            printResult(line, start, end, node, of);
     }
 }
 
-void printResult(string line, int start, int end, Node *node) {
+void printResult(string line, int start, int end, Node *node, ofstream& of) {
     string lexeme = line.substr(start, end - start);
     if (node->type.empty())
         cout << "word: " << lexeme << " is not a valid word !!!" << endl;
-    if (node->type.size() == 1) cout << lexeme << " " << *(node->type.begin()) << endl;
+    if (node->type.size() == 1) {
+        cout << lexeme << " " << *(node->type.begin()) << endl;
+        of << *(node->type.begin()) << endl;
+    }
     else {
         // 目前只有标识符和关键字会重复
         for (auto t:node->type) {
             if (t != "ID") {
                 cout << lexeme << " " << t << endl;
+                of << t << endl;
                 return;
             }
         }

@@ -38,7 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
   "../lexer/CMakeLists.txt"
-  "../parser/CMakeLists.txt"
+  "../parse/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -51,11 +51,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lexer/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "parser/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "parse/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lexer/CMakeFiles/Lexer.dir/DependInfo.cmake"
-  "parser/CMakeFiles/Yacc.dir/DependInfo.cmake"
+  "parse/CMakeFiles/Yacc.dir/DependInfo.cmake"
   )

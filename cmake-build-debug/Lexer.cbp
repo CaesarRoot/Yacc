@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lexer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lexer\;CMake Files\parse\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexer">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 Lexer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexer/fast">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 Lexer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/lexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Yacc">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Yacc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 Yacc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Yacc/fast">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Yacc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 Yacc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/DFA_DFAo.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/DFA_DFAo.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/Lexer.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/NFA_DFA.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/NFA_DFA.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/READ_File.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/READ_File.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/READ_file.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/RE_NFA.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/RE_NFA.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/RE_Suffix.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/RE_Suffix.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/Utils.cpp">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/Utils.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/type.h">
+			<Option target="Lexer"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/ALLProductions.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/ALLProductions.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/PPT.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/PPT.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/Yacc.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/type.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/type.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lexer\"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parse\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

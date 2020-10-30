@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Lexer" targetName="Lexer" />
       <config projectName="Lexer" targetName="Yacc" />
+      <config projectName="Lexer" targetName="Lexer" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,46 +13,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2eab4c9-a060-4ba5-8dfd-084303ae1b26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RE.l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALLProductions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALLProductions.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPT.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPT.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/ALLProductions.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/PPT.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/PPT.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Yacc.dir/type.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Yacc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Yacc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Yacc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Yacc.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plainProductions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plainProductions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/productions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexer/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/ALLProductions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse/ALLProductions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/ALLProductions.h" beforeDir="false" afterPath="$PROJECT_DIR$/parse/ALLProductions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/PPT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse/PPT.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/PPT.h" beforeDir="false" afterPath="$PROJECT_DIR$/parse/PPT.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse/Yacc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/plainProductions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse/type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/type.h" beforeDir="false" afterPath="$PROJECT_DIR$/parse/type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/RE.l" beforeDir="false" afterPath="$PROJECT_DIR$/resources/RE.l" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plainProductions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plainProductions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/productions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/productions.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +67,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -127,8 +114,25 @@
       <updated>1576378854990</updated>
       <workItem from="1576378858892" duration="6380000" />
       <workItem from="1576397891985" duration="19300000" />
-      <workItem from="1576458759970" duration="2528000" />
+      <workItem from="1576458759970" duration="3502000" />
+      <workItem from="1576462321689" duration="5019000" />
+      <workItem from="1577456752121" duration="2798000" />
     </task>
+    <task id="LOCAL-00001" summary="重构，加入Lexer">
+      <created>1576461569591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576461569591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="重构，加入Lexer">
+      <created>1576461737802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576461737802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重构，加入Lexer" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构，加入Lexer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

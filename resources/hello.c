@@ -3,9 +3,8 @@ void f(){
 }
 
 int main(){
-    f();
     int complex_AND_long_variable_name_100 = 1 + 1;
-    double y = 1.0 * 2.0 / x;
+    double y = 1.0 * 2.0;
     if(x < y){
         x = y;
     } else {

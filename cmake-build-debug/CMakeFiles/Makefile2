@@ -54,19 +54,19 @@ CMAKE_BINARY_DIR = /Users/cengshaoxun/Programs/Yacc/cmake-build-debug
 
 # The main recursive "all" target.
 all: lexer/all
-all: parser/all
+all: parse/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: lexer/clean
-clean: parser/clean
+clean: parse/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
 preinstall: lexer/preinstall
-preinstall: parser/preinstall
+preinstall: parse/preinstall
 
 .PHONY : preinstall
 
@@ -116,49 +116,49 @@ lexer/CMakeFiles/Lexer.dir/clean:
 .PHONY : lexer/CMakeFiles/Lexer.dir/clean
 
 #=============================================================================
-# Directory level rules for directory parser
+# Directory level rules for directory parse
 
 # Recursive "all" directory target.
-parser/all: parser/CMakeFiles/Yacc.dir/all
+parse/all: parse/CMakeFiles/Yacc.dir/all
 
-.PHONY : parser/all
+.PHONY : parse/all
 
 # Recursive "clean" directory target.
-parser/clean: parser/CMakeFiles/Yacc.dir/clean
+parse/clean: parse/CMakeFiles/Yacc.dir/clean
 
-.PHONY : parser/clean
+.PHONY : parse/clean
 
 # Recursive "preinstall" directory target.
-parser/preinstall:
+parse/preinstall:
 
-.PHONY : parser/preinstall
+.PHONY : parse/preinstall
 
 #=============================================================================
-# Target rules for target parser/CMakeFiles/Yacc.dir
+# Target rules for target parse/CMakeFiles/Yacc.dir
 
 # All Build rule for target.
-parser/CMakeFiles/Yacc.dir/all:
-	$(MAKE) -f parser/CMakeFiles/Yacc.dir/build.make parser/CMakeFiles/Yacc.dir/depend
-	$(MAKE) -f parser/CMakeFiles/Yacc.dir/build.make parser/CMakeFiles/Yacc.dir/build
+parse/CMakeFiles/Yacc.dir/all:
+	$(MAKE) -f parse/CMakeFiles/Yacc.dir/build.make parse/CMakeFiles/Yacc.dir/depend
+	$(MAKE) -f parse/CMakeFiles/Yacc.dir/build.make parse/CMakeFiles/Yacc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13 "Built target Yacc"
-.PHONY : parser/CMakeFiles/Yacc.dir/all
+.PHONY : parse/CMakeFiles/Yacc.dir/all
 
 # Build rule for subdir invocation for target.
-parser/CMakeFiles/Yacc.dir/rule: cmake_check_build_system
+parse/CMakeFiles/Yacc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cengshaoxun/Programs/Yacc/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 parser/CMakeFiles/Yacc.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 parse/CMakeFiles/Yacc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cengshaoxun/Programs/Yacc/cmake-build-debug/CMakeFiles 0
-.PHONY : parser/CMakeFiles/Yacc.dir/rule
+.PHONY : parse/CMakeFiles/Yacc.dir/rule
 
 # Convenience name for target.
-Yacc: parser/CMakeFiles/Yacc.dir/rule
+Yacc: parse/CMakeFiles/Yacc.dir/rule
 
 .PHONY : Yacc
 
 # clean rule for target.
-parser/CMakeFiles/Yacc.dir/clean:
-	$(MAKE) -f parser/CMakeFiles/Yacc.dir/build.make parser/CMakeFiles/Yacc.dir/clean
-.PHONY : parser/CMakeFiles/Yacc.dir/clean
+parse/CMakeFiles/Yacc.dir/clean:
+	$(MAKE) -f parse/CMakeFiles/Yacc.dir/build.make parse/CMakeFiles/Yacc.dir/clean
+.PHONY : parse/CMakeFiles/Yacc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

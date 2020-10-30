@@ -14,27 +14,16 @@ void printPPT(const PPT &ppt);
 
 void first_and_follow();
 
+queue<string> read_token_sequence(string filename);
+
 int main() {
     first_and_follow();
     PPT ppt;
     initPPT(ppt);
     cout << "-------------------------" << endl;
-    printPPT(ppt);
+//    printPPT(ppt);
     cout << "-------------------------" << endl;
-    queue<string> readers;
-    readers.push("INTEGER");
-    readers.push("ID");
-    readers.push("(");
-    readers.push(")");
-    readers.push("{");
-    readers.push("INTEGER");
-    readers.push("ID");
-    readers.push("=");
-    readers.push("INTEGER");
-    readers.push("+");
-    readers.push("ID");
-    readers.push(";");
-    readers.push("}");
+    queue<string> readers = read_token_sequence("resources/token_sequence.txt");
     readers.push("$");
 
     stack<string> stack;
@@ -97,6 +86,19 @@ int main() {
     return 0;
 }
 
+queue<string> read_token_sequence(string filename) {
+    ifstream f;
+    f.open(filename, ios::in);
+    string line;
+    queue<string> res;
+    while (1) {
+        getline(f, line);
+        if (line.length() == 0) break;
+        res.push(line);
+    }
+    return res;
+}
+
 void first_and_follow() {
     ALLProductions allProductions;
     ofstream of;
@@ -109,7 +111,7 @@ void first_and_follow() {
     }
     // 对所有产生式求first
     for (auto p:allProductions.allProductions) {
-        cout << p;
+//        cout << p;
         of << p;
         set<string> firsts = allProductions.first(p.items);
         // 如果first中包含epsilon边，那么还要求follow
@@ -119,13 +121,13 @@ void first_and_follow() {
         }
         for (auto it = firsts.begin(); it != firsts.end(); it++) {
             if (it != firsts.begin()) {
-                cout << " ";
+//                cout << " ";
                 of << " ";
             }
-            cout << *it;
+//            cout << *it;
             of << *it;
         }
-        cout << endl;
+//        cout << endl;
         of << endl;
     }
 };

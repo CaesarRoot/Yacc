@@ -222,10 +222,10 @@ Lexer_SOURCE_DIR:STATIC=/Users/cengshaoxun/Programs/Yacc/lexer
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-Yacc_BINARY_DIR:STATIC=/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parser
+Yacc_BINARY_DIR:STATIC=/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse
 
 //Value Computed by CMake
-Yacc_SOURCE_DIR:STATIC=/Users/cengshaoxun/Programs/Yacc/parser
+Yacc_SOURCE_DIR:STATIC=/Users/cengshaoxun/Programs/Yacc/parse
 
 
 ########################

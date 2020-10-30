@@ -4,4 +4,4 @@ project(Lexer)
 set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(lexer)
-add_subdirectory(parser)
+add_subdirectory(parse)

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Yacc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lexer\;CMake Files\parse\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Yacc">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Yacc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 Yacc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Yacc/fast">
+				<Option output="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Yacc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 Yacc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cengshaoxun/Programs/Yacc/cmake-build-debug/parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/ALLProductions.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/ALLProductions.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/PPT.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/PPT.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/Yacc.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/type.cpp">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/type.h">
+			<Option target="Yacc"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/lexer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lexer\"/>
+		</Unit>
+		<Unit filename="/Users/cengshaoxun/Programs/Yacc/parse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parse\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

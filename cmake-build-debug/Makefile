@@ -133,7 +133,7 @@ Yacc: cmake_check_build_system
 
 # fast build rule for target.
 Yacc/fast:
-	$(MAKE) -f parser/CMakeFiles/Yacc.dir/build.make parser/CMakeFiles/Yacc.dir/build
+	$(MAKE) -f parse/CMakeFiles/Yacc.dir/build.make parse/CMakeFiles/Yacc.dir/build
 .PHONY : Yacc/fast
 
 # Help Target
